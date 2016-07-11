@@ -1,6 +1,6 @@
 FROM alpine:3.4
 
-ARG VERSION="1.12.1"
+ARG VERSION="1.12.1.1"
 ENV GOPATH="/tmp/go"
 
 RUN apk --no-cache add --virtual build-deps go make git && \
